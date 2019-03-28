@@ -85,7 +85,7 @@ class MusicLibraryController
     songs = Song.all.sort_by {|song| song.name}
     songs.each_with_index do |song, index|
       binding.pry
-      if (index + 1) == number
+      if (index + 1).to_s == number
         puts "Playing #{song.name} by #{song.artist.name}"
       # elsif number > songs.count
       #   puts "Which song number would you like to play?"
