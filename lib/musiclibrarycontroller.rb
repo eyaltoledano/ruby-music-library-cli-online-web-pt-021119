@@ -91,6 +91,5 @@ class MusicLibraryController
         number = gets.chomp
       end
     end
-    # index = (index_to.i += 1).to_s
   end
 end
