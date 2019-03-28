@@ -79,7 +79,7 @@ class MusicLibraryController
   end
 
   def play_song
-    # puts "Which song number would you like to play?"
+    puts "Which song number would you like to play?"
     # list_songs
     # index = gets.chomp
     # index = (index_to.i += 1).to_s
