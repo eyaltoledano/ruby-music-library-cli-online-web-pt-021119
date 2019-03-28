@@ -25,9 +25,7 @@ class MusicLibraryController
     list_songs if input == "list songs"
     list_artists if input == "list artists"
     list_genres if input == "list genres"
-    if input == "list " + artist_or_genre
-      binding.pry
-    end
+    list_songs_by_artist if input == "list artist"
     while input != "exit"
       binding.pry
       input = gets.chomp
