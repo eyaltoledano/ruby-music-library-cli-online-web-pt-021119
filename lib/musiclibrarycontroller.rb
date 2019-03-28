@@ -28,7 +28,6 @@ class MusicLibraryController
       when input == "list songs"
         list_songs
       end
-
       input = gets.chomp
     end
   end
