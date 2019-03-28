@@ -23,6 +23,7 @@ class MusicLibraryController
     welcome
     input = gets.chomp
     list_songs if input == "list songs"
+    list_artists if input == "list artists"
     while input != "exit"
       binding.pry
       input = gets.chomp
