@@ -86,9 +86,9 @@ class MusicLibraryController
     songs.each_with_index do |song, index|
       if (index + 1) == number
         puts "Playing #{song.name} by #{song.artist.name}"
-      elsif number > songs.count
-        puts "Which song number would you like to play?"
-        number = gets.chomp
+      # elsif number > songs.count
+      #   puts "Which song number would you like to play?"
+      #   number = gets.chomp
       end
     end
   end
