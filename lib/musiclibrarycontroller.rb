@@ -81,7 +81,7 @@ class MusicLibraryController
   def play_song
     puts "Which song number would you like to play?"
     number = gets.chomp
-    binding.pry
+    # binding.pry
     songs = Song.all.sort_by {|song| song.name}
     songs.each_with_index do |song, index|
       if (index + 1) == number
